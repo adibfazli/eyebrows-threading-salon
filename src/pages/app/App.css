@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+#mainNav{
+  background-color: rgb(65, 65, 65);
+}
+.navbarBrand{
+  font-family:'Pattaya', sans-serif;
+  font-size: 40px;
+  
+}
+.intro-lead-in{
+  /* color: black;
+  background-color: #e6c152e1; */
+  border-radius: 5px;
+}
+.intro-heading{
+  /* color: black;
+  background-color: #e6c152e1; */
+  border-radius: 5px;
+  /* width: 60%; */
+}
+.contactDivInfo_Div p{
+  display: inline-block;
+}
+#contact{
+  align-items: center;
+}
+.contactAndMap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 700px) {
+  .contactAndMap {
+    display: flex;
+    flex-direction: column;
+  }
+  .contactAndMap h3{
+    padding-top: 20px;
+  }
+}
+
+.mapDiv{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

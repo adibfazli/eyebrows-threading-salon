@@ -1,0 +1,42 @@
+const express = require('express');
+const path = require('path');
+const favicon = require('serve-favicon');
+const logger = require('morgan');
+const session = require('express-session');
+const passport = require('passport');
+const cookieParser = require('cookie-parser')
+
+const app = express();
+
+require('dotenv').config();
+require('./config/database')
+// require('./config/AWS')
+
+// const http = require('http').Server(app);
+// require('./io').init(http);
+
+app.use(logger('dev'));
+app.use(express.json());
+app.use(cookieParser())
+app.use(favicon(path.join(__dirname, 'build', 'favicon.ico')));
+app.use(express.static(path.join(__dirname, 'build')));
+
+app.use(session({ secret: 'zartzart' , resave: false , saveUninitialized: true }));
+    //Initialize passport
+    //Be sure to mount it after the session middleware and always before any of your routes are mounted that would need access to the current user:
+app.use(passport.initialize());
+    //Intialize passport session.
+app.use(passport.session());
+
+app.use('/api/home'        , require('./router/api/home'));
+
+
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
+
+const port = process.env.PORT || 3001;
+
+app.listen(port, function() {
+    console.log(`Express app running on port ${port}`)
+  });
