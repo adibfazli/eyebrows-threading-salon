@@ -21,9 +21,9 @@ function App() {
 
       {/* NAV */}
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style={{background: "rgb(65, 65, 65)" , height:"60px"}}>
-        <div className="container">
+        <div className="cpr container">
           <a className="navbarBrand" id="navLogo" href="#page-top">Brow Brow</a>
-          <button 
+          {/* <button 
               className ="navbar-toggler navbar-toggler-right" 
               type ="button" 
               data-toggle ="collapse" 
@@ -33,7 +33,8 @@ function App() {
               aria-label ="Toggle navigation">
             Menu
             <i className="fa fa-bars"></i>
-          </button>
+          </button> */}
+          {/* <div className="navLinks" id="navbarResponsive"> */}
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav text-uppercase ml-auto">
               <li className="nav-item">
