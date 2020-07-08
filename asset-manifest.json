@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/adibfazli/eyebrows-threading-salon.git/static/css/main.753cac45.chunk.css",
+    "main.js": "/adibfazli/eyebrows-threading-salon.git/static/js/main.32febd98.chunk.js",
+    "main.js.map": "/adibfazli/eyebrows-threading-salon.git/static/js/main.32febd98.chunk.js.map",
+    "runtime-main.js": "/adibfazli/eyebrows-threading-salon.git/static/js/runtime-main.ab0f8bbd.js",
+    "runtime-main.js.map": "/adibfazli/eyebrows-threading-salon.git/static/js/runtime-main.ab0f8bbd.js.map",
+    "static/js/2.0b9d9067.chunk.js": "/adibfazli/eyebrows-threading-salon.git/static/js/2.0b9d9067.chunk.js",
+    "static/js/2.0b9d9067.chunk.js.map": "/adibfazli/eyebrows-threading-salon.git/static/js/2.0b9d9067.chunk.js.map",
+    "index.html": "/adibfazli/eyebrows-threading-salon.git/index.html",
+    "precache-manifest.b82002ca37be688bd9b9af5b3ed62305.js": "/adibfazli/eyebrows-threading-salon.git/precache-manifest.b82002ca37be688bd9b9af5b3ed62305.js",
+    "service-worker.js": "/adibfazli/eyebrows-threading-salon.git/service-worker.js",
+    "static/css/main.753cac45.chunk.css.map": "/adibfazli/eyebrows-threading-salon.git/static/css/main.753cac45.chunk.css.map",
+    "static/js/2.0b9d9067.chunk.js.LICENSE.txt": "/adibfazli/eyebrows-threading-salon.git/static/js/2.0b9d9067.chunk.js.LICENSE.txt",
+    "static/media/1.png": "/adibfazli/eyebrows-threading-salon.git/static/media/1.7a4b1a57.png",
+    "static/media/2.png": "/adibfazli/eyebrows-threading-salon.git/static/media/2.56034f9f.png",
+    "static/media/3.png": "/adibfazli/eyebrows-threading-salon.git/static/media/3.6347f181.png",
+    "static/media/4.png": "/adibfazli/eyebrows-threading-salon.git/static/media/4.b5386e50.png",
+    "static/media/5.png": "/adibfazli/eyebrows-threading-salon.git/static/media/5.2e6aba60.png",
+    "static/media/6.png": "/adibfazli/eyebrows-threading-salon.git/static/media/6.8cb9c4ac.png",
+    "static/media/agencyBorn.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/agencyBorn.8aadff94.jpg",
+    "static/media/airplaine.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/airplaine.aed986a7.jpg",
+    "static/media/expansion.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/expansion.bf6099af.jpg",
+    "static/media/agency.min.css": "/adibfazli/eyebrows-threading-salon.git/static/media/map-image.f40ed5b1.png",
+    "static/media/profileIcon.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/profileIcon.907d66d8.jpg",
+    "static/media/sudi.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/sudi.fee76645.jpg",
+    "static/media/transition.jpg": "/adibfazli/eyebrows-threading-salon.git/static/media/transition.cb7ae9c3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab0f8bbd.js",
+    "static/js/2.0b9d9067.chunk.js",
+    "static/css/main.753cac45.chunk.css",
+    "static/js/main.32febd98.chunk.js"
+  ]
+}
