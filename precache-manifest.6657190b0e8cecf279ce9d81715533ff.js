@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "95e21cdcd93468a48d736fd86384dccd",
+    "revision": "8da1ab79f0e25ec443e64daa91458645",
     "url": "/eyebrows-threading-salon/index.html"
   },
   {
